@@ -1,0 +1,135 @@
+/* body.css */
+
+/* Define the basic styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    background-color: #f8f9fa; /* Light background color for readability */
+    color: #343a40; /* Dark text color for contrast */
+}
+
+/* Style the header section */
+header {
+    background-color: #ffc107; /* Bright yellow background */
+    color: #fff; /* White text for contrast */
+    padding: 1rem; /* Add spacing inside the header */
+    text-align: center; /* Center align the text */
+    font-family: 'Great Vibes', cursive; /* Decorative font for a welcoming feel */
+    font-size: 2.5rem; /* Large font size for emphasis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the social media links container */
+.social-links {
+    display: flex; /* Arrange links horizontally */
+    justify-content: center; /* Center align the links */
+    gap: 1rem; /* Add spacing between links */
+    margin-top: 0.5rem; /* Add spacing above the links */
+}
+
+/* Individual social link styling */
+.social-links a {
+    color: #fff; /* White color to match the header */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for the main container */
+.container {
+    max-width: 800px; /* Limit the width for readability */
+    margin: 2rem auto; /* Center the container and add spacing */
+    padding: 1rem; /* Add inner spacing */
+    background-color: #fff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the back link */
+.back-link {
+    display: flex; /* Arrange the icon and text in a row */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 1rem; /* Add spacing below the link */
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue color for links */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+/* Add spacing between the back icon and text */
+.back-link i {
+    margin-right: 0.5rem;
+}
+
+/* Style for the image container */
+.image-container {
+    text-align: center; /* Center align the image */
+    margin-bottom: 1rem; /* Add spacing below the image */
+}
+
+/* Ensure the image is responsive */
+.image-container img {
+    max-width: 100%; /* Scale image to fit the container */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+}
+
+/* Style for the recipe title */
+.title {
+    font-size: 2rem; /* Large font size for emphasis */
+    font-weight: bold; /* Bold text for visibility */
+    text-align: center; /* Center align the title */
+    margin: 1rem 0; /* Add spacing above and below */
+    color: #dc3545; /* Red color for a striking look */
+}
+
+/* Style for the recipe description */
+.description {
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    margin-bottom: 1rem; /* Add spacing below the description */
+    line-height: 1.5; /* Improve readability with line spacing */
+    text-align: justify; /* Align text to both edges */
+}
+
+/* Style for the recipe info section */
+.info {
+    display: flex; /* Arrange info items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    margin-bottom: 1rem; /* Add spacing below the section */
+}
+
+/* Style individual info items */
+.info-item {
+    font-size: 1rem; /* Standard font size */
+}
+
+/* Style for the like button */
+.like-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Arrange icon and text in a row */
+    align-items: center; /* Vertically align items */
+    gap: 0.5rem; /* Add spacing between icon and text */
+    color: #dc3545; /* Red color for emphasis */
+}
+
+/* Add hover effect for the like button */
+.like-button:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Style for section headings */
+.section h2 {
+    font-size: 1.5rem; /* Medium font size for emphasis */
+    margin-bottom: 0.5rem; /* Add spacing below the heading */
+    color: #495057; /* Darker gray for headings */
+}
+
+/* Style for lists within sections */
+.section ul, .section ol {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    padding-left: 1.5rem; /* Add indentation */
+}
+
+/* Style individual list items */
+.section li {
+    margin-bottom: 0.5rem; /* Add spacing between items */
+    font-size: 1rem; /* Standard font size */
+}

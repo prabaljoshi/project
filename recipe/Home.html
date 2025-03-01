@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fooddy - Discover Delicious Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container mx-auto flex items-center justify-between py-4 px-6">
+            <a href="#" class="logo">Fooddy</a>
+            <nav class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-x"></i></a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="source/T1.jpg" alt="Hero Image" class="hero-image">
+    </section>
+    <section class="categories container mx-auto py-12">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <a href="one/pasta.html" class="category-item">
+                <img src="source/pasta.png" alt="Pasta" class="category-image">
+                <p class="category-title">Pasta</p>
+            </a>
+            <a href="one/pizza.html" class="category-item">
+                <img src="source/PIZZA.jpg" alt="Pizza" class="category-image">
+                <p class="category-title">Pizza</p>
+            </a>
+            <a href="one/vegan.html" class="category-item">
+                <img src="source/vegan.png" alt="Vegan" class="category-image">
+                <p class="category-title">Vegan</p>
+            </a>
+            <a href="one/Rasgulla.html" class="category-item">
+                <img src="source/dessret.png" alt="Desserts" class="category-image">
+                <p class="category-title">Desserts</p>
+            </a>
+            <a href="one/Smoothies.html" class="category-item">
+                <img src="source/smoothies.png" alt="Smoothies" class="category-image">
+                <p class="category-title">Smoothies</p>
+            </a>
+            <a href="one/Medu Vada.html" class="category-item">
+                <img src="source/Medu vada.jpg" alt="Breakfast" class="category-image">
+                <p class="category-title">Breakfast</p>
+            </a>
+        </div>
+    </section>
+    <section class="recipes bg-gray-100 py-12">
+        <div class="container mx-auto">
+            <h2 class="section-title">Super Delicious Recipes</h2>
+            <div class="recipe-list flex flex-wrap gap-6 justify-center">
+                <div class="recipe-item">
+                    <a href="one/n1.html">
+                        <img src="source/1/re1.png" alt="Veggie Stir-Fry Noodles" class="recipe-image">
+                    </a>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Veggie Stir-Fry Noodles</h3>
+                        <p class="recipe-author">By Author Name</p>
+                        <div class="recipe-info">
+                            <span class="rating">★★★★★</span>
+                            <span class="time">30 minutes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe-item">
+                    <a href="one/n2.html">
+                        <img src="source/1/re2.png" alt="Caprese Salad with a Twist" class="recipe-image">
+                    </a>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Caprese Salad with a Twist</h3>
+                        <p class="recipe-author">By Author Name</p>
+                        <div class="recipe-info">
+                            <span class="rating">★★★</span>
+                            <span class="time">10 minutes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container text-center py-4">
+            <p>&copy; 2025 Fooddy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
